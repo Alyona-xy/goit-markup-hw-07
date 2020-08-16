@@ -1,0 +1,30 @@
+.footer-contacts-list {
+    padding-left: 0px;
+}
+
+.footer-contacts-list-item,
+.footer-contacts-list-mail-link {
+    margin-bottom: 9px;
+}
+
+.footer-contacts-list-item {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: $background-color; 
+}
+
+.text-address {
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: $background-color;
+}
+
+.footer-info .address {
+font-style: normal;
+text-decoration: none;
+color:  rgba(255, 255, 255, 0.6)
+    }
