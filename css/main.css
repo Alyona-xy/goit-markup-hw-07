@@ -424,13 +424,7 @@ p {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus,
-.contacts-mail-link:hover,
-.contacts-mail-link:focus,
-.contacts-phone-link:hover,
-.contacts-phone-link:focus,
-.contacts-phone-icon:hover,
-.contacts-phone-icon:focus {
+.navigation-list-link:focus {
   color: #2196F3;
   outline: 1px;
   outline-color: transparent;
@@ -481,6 +475,17 @@ p {
   display: flex;
   justify-content: baseline;
   align-items: center;
+}
+
+.contacts-mail-link:hover,
+.contacts-mail-link:focus,
+.contacts-phone-link:hover,
+.contacts-phone-link:focus,
+.contacts-phone-icon:hover,
+.contacts-phone-icon:focus {
+  color: #2196F3;
+  outline: 1px;
+  outline-color: transparent;
 }
 
 .contacts-mail-link:hover .contact-mail-icon-svg,
@@ -929,24 +934,6 @@ p {
   margin-right: 10px;
 }
 
-.backdrop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(47, 48, 58, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop.is-hidden .modal-form {
-  opacity: 0;
-}
-
 /*  Форма подписки в футере */
 .footer-subscribe-form {
   box-sizing: border-box;
@@ -1025,6 +1012,24 @@ p {
   fill: #FFFFFF;
 }
 
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal-form {
+  opacity: 0;
+}
+
 /* Модальное окно (форма на главной) */
 .modal-form {
   box-sizing: border-box;
@@ -1084,7 +1089,7 @@ p {
 
 .modal-form-label {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 42px;
   font-weight: normal;
   font-size: 14px;

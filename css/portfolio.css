@@ -424,13 +424,7 @@ p {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus,
-.contacts-mail-link:hover,
-.contacts-mail-link:focus,
-.contacts-phone-link:hover,
-.contacts-phone-link:focus,
-.contacts-phone-icon:hover,
-.contacts-phone-icon:focus {
+.navigation-list-link:focus {
   color: #2196F3;
   outline: 1px;
   outline-color: transparent;
@@ -481,6 +475,17 @@ p {
   display: flex;
   justify-content: baseline;
   align-items: center;
+}
+
+.contacts-mail-link:hover,
+.contacts-mail-link:focus,
+.contacts-phone-link:hover,
+.contacts-phone-link:focus,
+.contacts-phone-icon:hover,
+.contacts-phone-icon:focus {
+  color: #2196F3;
+  outline: 1px;
+  outline-color: transparent;
 }
 
 .contacts-mail-link:hover .contact-mail-icon-svg,

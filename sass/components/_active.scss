@@ -1,8 +1,7 @@
 .active {
     color: $accent-color;
-    }
 
-.active::after {
+.&::after {
         position: absolute;
         content: '';
         left: 0;
@@ -13,3 +12,4 @@
         background-color: $accent-color;
         border-radius: 2px;
     }
+}
