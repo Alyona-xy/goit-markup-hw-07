@@ -25,13 +25,13 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: $background-color;
     margin-bottom: 30px;
     }
     
     .modal-button {
-        background-color: var(--accent-color);
-        color: var(--background-color);
+        background-color: $accent-color;
+        color: $background-color;
         display:block;
         margin: auto;
         border: 0px;
@@ -47,7 +47,7 @@
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--background-color);
+    color: $background-color;
     padding-left: 32px;
     padding-right: 32px;
     }

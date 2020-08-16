@@ -19,7 +19,7 @@
 .footer-info .logo {
     margin-bottom: 20px;
     margin-right: 0;
-    color: var(--background-color);
+    color: $background-color;
 }
 
 .footer-contacts-list {
@@ -36,7 +36,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--background-color); 
+color: $background-color; 
 }
 
 .text-address {
@@ -44,7 +44,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--background-color);
+color: $background-color;
 }
 
 .footer-info .address {
@@ -78,12 +78,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-social-links .social-links-list .social-links-item:hover,
 .footer-social-links .social-links-list .social-links-item:focus {
-background-color: var(--accent-color);
+background-color: $accent-color;
 cursor: pointer;
 }
 
 .footer-social-links .social-links-item-link-icon-svg {
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
 }
 
 .social-list-item-title,
@@ -94,7 +94,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--background-color);
+color: $background-color;
 margin-bottom: 20px;
 }
 

@@ -338,23 +338,12 @@ template {
   display: none;
 }
 
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --title-text-color:  #212121;
-  --title-dark-theme-color: #FFFFFF;
-  --primary-text-color: #757575;
-  --accent-color:  #2196F3;
-  --background-color: #FFFFFF;
-  --modal-button-color: #FFFFFF;
-}
-
 body {
-  color: var(--primary-text-color);
-  second-color: var(--title-text-color);
-  accent-color: var(--accent-color);
-  background-color: var(--background-color);
-  font-family: var(--main-font);
+  color: #757575;
+  second-color: #212121;
+  accent-color: #2196F3;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -397,7 +386,7 @@ p {
 
 /* Header*/
 .logo {
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -407,7 +396,7 @@ p {
 }
 
 .accent-logo-text {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .header .container {
@@ -428,7 +417,7 @@ p {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: #212121;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -442,13 +431,13 @@ p {
 .contacts-phone-link:focus,
 .contacts-phone-icon:hover,
 .contacts-phone-icon:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   outline: 1px;
   outline-color: transparent;
 }
 
 .active {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .navigation-list-item {
@@ -463,7 +452,7 @@ p {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   border-radius: 2px;
 }
 
@@ -501,13 +490,13 @@ p {
 .contacts-mail-link:focus .contact-mail-icon-svg,
 .contacts-phone-link:hover .contact-phone-icon-svg,
 .contacts-phone-link:focus .contact-phone-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .contact-mail-icon-svg,
 .contact-phone-icon-svg {
   margin-right: 10px;
-  fill: var(--primary-text-color);
+  fill: #757575;
 }
 
 .contacts-mail-link,
@@ -515,7 +504,7 @@ p {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -542,13 +531,13 @@ p {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: #FFFFFF;
   margin-bottom: 30px;
 }
 
 .modal-button {
-  background-color: var(--accent-color);
-  color: var(--background-color);
+  background-color: #2196F3;
+  color: #FFFFFF;
   display: block;
   margin: auto;
   border: 0px;
@@ -564,7 +553,7 @@ p {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--background-color);
+  color: #FFFFFF;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -607,7 +596,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .description {
@@ -650,7 +639,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: #FFFFFF;
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -662,7 +651,7 @@ p {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -687,7 +676,7 @@ p {
 }
 
 .our-team-list-item {
-  background: var(--background-color);
+  background: #FFFFFF;
   /* material shadow v1 */
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
@@ -707,7 +696,7 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   margin-bottom: 10px;
 }
 
@@ -717,7 +706,7 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
   margin-bottom: 16px;
 }
 
@@ -742,7 +731,7 @@ p {
 
 .social-links-item:hover,
 .social-links-item:focus {
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   cursor: pointer;
   /* outline: -webkit-focus-ring-color 1px; */
 }
@@ -754,17 +743,17 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   cursor: pointer;
 }
 
 .social-links-item:hover .social-links-item-link-icon-svg,
 .social-links-item:focus .social-links-item-link-icon-svg {
-  fill: var(--title-dark-theme-color);
+  fill: #FFFFFF;
 }
 
 .social-links-item-link:focus .social-links-item-link-icon-svg {
-  fill: var(--title-dark-theme-color);
+  fill: #FFFFFF;
 }
 
 .social-links-item-link-icon-svg {
@@ -801,7 +790,7 @@ p {
 /*  .constant-clients-list-item:hover, 
 .constant-clients-list-item:focus {
      box-sizing: border-box;
-     border-color: var(--accent-color);
+     border-color: $accent-color;
  } */
 .constant-clients-list-item-icon {
   box-sizing: border-box;
@@ -822,13 +811,13 @@ p {
   display: flex;
   width: 100%;
   height: 100%;
-  border-color: var(--accent-color);
+  border-color: #2196F3;
   justify-content: center;
   align-items: center;
 }
 
 .constant-clients-list-item-icon:focus .constant-clients-list-item-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .constant-clients-list-item-icon-svg {
@@ -838,7 +827,7 @@ p {
 
 .constant-clients-list-item:hover .constant-clients-list-item-icon-svg,
 .constant-clients-list-item:focus .constant-clients-list-item-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .constant-clients-list-item:not(:last-child) {
@@ -867,7 +856,7 @@ p {
 .footer-info .logo {
   margin-bottom: 20px;
   margin-right: 0;
-  color: var(--background-color);
+  color: #FFFFFF;
 }
 
 .footer-contacts-list {
@@ -884,7 +873,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--background-color);
+  color: #FFFFFF;
 }
 
 .text-address {
@@ -892,7 +881,7 @@ p {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--background-color);
+  color: #FFFFFF;
 }
 
 .footer-info .address {
@@ -924,12 +913,12 @@ p {
 
 .footer-social-links .social-links-list .social-links-item:hover,
 .footer-social-links .social-links-list .social-links-item:focus {
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   cursor: pointer;
 }
 
 .footer-social-links .social-links-item-link-icon-svg {
-  fill: var(--title-dark-theme-color);
+  fill: #FFFFFF;
 }
 
 .social-list-item-title,
@@ -940,7 +929,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
@@ -995,7 +984,7 @@ p {
   padding-right: 0px;
   border-radius: 4px;
   border: none;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -1007,7 +996,7 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-dark-theme-color);
+  color: #FFFFFF;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -1024,7 +1013,7 @@ p {
 .footer-subscribe-form-icon-svg {
   width: 24px;
   height: 24px;
-  fill: var(--title-dark-theme-color);
+  fill: #FFFFFF;
 }
 
 /* Модальное окно (форма на главной) */
@@ -1072,7 +1061,7 @@ p {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -1110,7 +1099,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: #757575;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1118,7 +1107,7 @@ p {
   width: 200px;
   height: 50px;
   padding: 10px 55px;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
@@ -1130,7 +1119,7 @@ p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-dark-theme-color);
+  color: #FFFFFF;
 }
 
 .form-name-icon-svg,
@@ -1141,7 +1130,7 @@ p {
   left: 16px;
   width: 18px;
   height: 18px;
-  fill: var(--title-text-color);
+  fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1168,22 +1157,22 @@ p {
 }
 
 .modal-form-input:focus {
-  outline-color: var(--accent-color);
+  outline-color: #2196F3;
 }
 
 .modal-form-message:focus {
-  outline-color: var(--accent-color);
+  outline-color: #2196F3;
 }
 
 .modal-form-input:focus + .modal-form-label {
-  color: var(--accent-color);
+  color: #2196F3;
   font-size: 12px;
   line-height: 1.17;
   transform: translate(-26px, -215%);
 }
 
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
-  color: var(--accent-color);
+  color: #2196F3;
   font-size: 12px;
   line-height: 1.17;
   transform: translate(-26px, -215%);
@@ -1192,11 +1181,11 @@ p {
 .modal-form-input:focus ~ .form-name-icon-svg,
 .modal-form-input:focus ~ .form-tel-icon-svg,
 .modal-form-input:focus ~ .form-mail-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .modal-form-close:hover, .modal-form-close:focus .modal-form-close-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .is-hidden {
@@ -1225,12 +1214,12 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .modal-form-options-span-link {
   text-decoration-line: underline;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .modal-form-checkbox {
@@ -1256,7 +1245,7 @@ p {
   align-items: center;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--title-text-color);
+  border: 2px solid #212121;
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1268,10 +1257,10 @@ p {
 }
 
 .modal-form-checkbox:checked + .checkbox-icon {
-  border-color: var(--accent-color);
+  border-color: #2196F3;
   background-size: contain;
   background-origin: border-box;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
 }
 
 .modal-form-checkbox:checked + .checkbox-icon > .checkbox-icon-svg {

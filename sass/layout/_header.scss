@@ -1,6 +1,6 @@
 /* Header*/
 .logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight:700;
     font-size: 26px;
     line-height: 1.19;
@@ -10,7 +10,7 @@
     }
 
 .accent-logo-text {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .header .container {
@@ -31,7 +31,7 @@ display: flex;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--title-text-color);
+color: $title-text-color;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -46,14 +46,14 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contacts-phone-link:focus,
 .contacts-phone-icon:hover,
 .contacts-phone-icon:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     outline: 1px;
     outline-color: transparent;
 }
 
 
 .active {
-color: var(--accent-color);
+color: $accent-color;
 }
 
 .navigation-list-item {
@@ -68,7 +68,7 @@ color: var(--accent-color);
     display: block;
     width:100%;
     height: 4px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-radius: 2px;
 }
 
@@ -108,14 +108,14 @@ align-items: center;
 .contacts-phone-link:hover .contact-phone-icon-svg,
 .contacts-phone-link:focus .contact-phone-icon-svg
 {
-fill: var(--accent-color);
+fill: $accent-color;
 }
 
 .contact-mail-icon-svg,
 .contact-phone-icon-svg
  {
     margin-right: 10px;
-    fill: var(--primary-text-color);
+    fill: $primary-text-color;
 }
 
 .contacts-mail-link,
@@ -123,7 +123,7 @@ fill: var(--accent-color);
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--primary-text-color);
+color: $primary-text-color;
 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

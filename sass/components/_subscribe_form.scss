@@ -47,7 +47,7 @@
     border-radius: 4px;
     border: none;
 
-    background:var(--accent-color);
+    background:$accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -59,7 +59,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -76,5 +76,5 @@
 .footer-subscribe-form-icon-svg {
     width: 24px;
     height: 24px;
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
 }

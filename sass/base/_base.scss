@@ -1,9 +1,9 @@
 body    {
-    color: var(--primary-text-color);
-    second-color: var(--title-text-color);
-    accent-color: var(--accent-color);
-    background-color: var(--background-color);
-    font-family: var(--main-font);
+    color: $primary-text-color;
+    second-color: $title-text-color;
+    accent-color: $accent-color;
+    background-color: $background-color;
+    font-family: $main-font;
     font-size: 14px;
 }
 
