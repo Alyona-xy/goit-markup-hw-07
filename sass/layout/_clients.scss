@@ -53,12 +53,12 @@
     fill: #AFB1B8; 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .constant-clients-list-item-icon:focus .& {
+    .constant-clients-list-item-icon:focus & {
         fill: $accent-color;
             }
 
-    .constant-clients-list-item:hover .&,
-    .constant-clients-list-item:focus .& {
+    .constant-clients-list-item:hover &,
+    .constant-clients-list-item:focus & {
         fill: $accent-color;
         }
     }
