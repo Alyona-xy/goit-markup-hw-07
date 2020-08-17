@@ -553,6 +553,7 @@ p {
   box-sizing: border-box;
 }
 
+/* Список фильтров */
 .portfolio-filter-list {
   margin-bottom: 50px;
 }
@@ -567,7 +568,6 @@ p {
   margin-right: 8px;
 }
 
-/* Список фильтров */
 .portfolio-filter-list-button {
   font-weight: 500;
   font-size: 16px;
@@ -586,8 +586,7 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-filter-list-button:hover,
-.portfolio-filter-list-button:focus {
+.portfolio-filter-list-button:hover, .portfolio-filter-list-button:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   outline: none;
@@ -622,8 +621,7 @@ p {
   margin-bottom: 0px;
 }
 
-.portfolio-projects-list-item:hover,
-.portfolio-projects-list-item:focus-within {
+.portfolio-projects-list-item:hover, .portfolio-projects-list-item:focus-within {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
