@@ -3,18 +3,20 @@
     padding-top: 94px;
     padding-bottom: 94px;
    margin-bottom: 0px;
-}
 
-.services .container {
-display:flex;
+   .container {
+    display:flex;
+    }
 }
 
 .services-list-item {
     position: relative;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.services-list-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .services-list-item-title-wrap {
     position: absolute;
