@@ -1,7 +1,7 @@
 .active {
     color: $accent-color;
 
-.&::after {
+&::after {
         position: absolute;
         content: '';
         left: 0;

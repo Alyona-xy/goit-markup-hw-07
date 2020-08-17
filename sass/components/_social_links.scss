@@ -16,13 +16,16 @@ justify-content: center;
 background-color: none;
 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-links-item:hover,
-.social-links-item:focus {
+&:hover,
+&:focus {
     background-color: $accent-color;
     cursor: pointer;
-    /* outline: -webkit-focus-ring-color 1px; */
+    }
+
+&:not(:last-child) {
+    margin-right: 10px;
+    }
 }
 
 .social-links-item-link:focus {
@@ -36,15 +39,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
-.social-links-item:hover .social-links-item-link-icon-svg,
-.social-links-item:focus .social-links-item-link-icon-svg
-{
-fill: $title-dark-theme-color;
-}
-
-.social-links-item-link:focus .social-links-item-link-icon-svg {
-fill: $title-dark-theme-color;
-}
 
 .social-links-item-link-icon-svg {
     width: 20px;
@@ -52,9 +46,21 @@ fill: $title-dark-theme-color;
     fill: #AFB1B8;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+    
+    .social-links-item:hover .&,
+    .social-links-item:focus .& {
+    fill: $title-dark-theme-color;
+    }
+
+    .social-links-item-link:focus .& {
+    fill: $title-dark-theme-color;
+    }
 }
 
-.social-links-item:not(:last-child) {
-    margin-right: 10px;
-}
+
+
+
+
+
+
+
